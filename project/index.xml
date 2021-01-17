@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Scott Koermer</title>
+    <link>/project/</link>
+      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 19 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>Projects</title>
+      <link>/project/</link>
+    </image>
+    
+    <item>
+      <title>ETD 50</title>
+      <link>/project/etd50/</link>
+      <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/project/etd50/</guid>
+      <description>&lt;p&gt;ETD 50 was a DOE funded project on the separation of rare earth elements from acid mine drainage.  A pilot scale plant was constructed and tested at West Virginia University.  My role in the project was primarially modeling and data visualization.&lt;/p&gt;
+&lt;p&gt;Final public report forthcoming.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Eriez RCS</title>
+      <link>/project/external-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/external-project/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Overview | Scott Koermer</title>
+    <link>/courses/mine-3544-mineral-processing-lab/</link>
+      <atom:link href="/courses/mine-3544-mineral-processing-lab/index.xml" rel="self" type="application/rss+xml" />
+    <description>Overview</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 16 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>Overview</title>
+      <link>/courses/mine-3544-mineral-processing-lab/</link>
+    </image>
+    
+    <item>
+      <title>Lab 1 Introduction</title>
+      <link>/courses/mine-3544-mineral-processing-lab/lab1/</link>
+      <pubDate>Sun, 15 Mar 2020 00:00:00 +0100</pubDate>
+      <guid>/courses/mine-3544-mineral-processing-lab/lab1/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;/media/process-lab/lab1.pdf&#34; target=&#34;_blank&#34;&gt;Lab 1 Assignment&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lab 2 Sampling and Splitting</title>
+      <link>/courses/mine-3544-mineral-processing-lab/example1/</link>
+      <pubDate>Sun, 15 Mar 2020 00:00:00 +0100</pubDate>
+      <guid>/courses/mine-3544-mineral-processing-lab/example1/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;/files/process_lab/3544%20Lab%2002%20Sampling%20and%20Splitting.pdf&#34; target=&#34;_blank&#34;&gt;Lab 2&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

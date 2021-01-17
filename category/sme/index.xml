@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SME | Scott Koermer</title>
+    <link>/category/sme/</link>
+      <atom:link href="/category/sme/index.xml" rel="self" type="application/rss+xml" />
+    <description>SME</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>SME</title>
+      <link>/category/sme/</link>
+    </image>
+    
+    <item>
+      <title>Rare Earth Element SX Systems: “Are we at steady state yet?”</title>
+      <link>/publication/rare-earth-element-sx-systems-are-we-at-steady-state-yet/</link>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/rare-earth-element-sx-systems-are-we-at-steady-state-yet/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Poster&lt;/em&gt; button above to view a PDF file of the poster.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;This poster was entered in the Mineral Processing Division Poster Contest at the SME annual meeting in Phoenix, AZ, February 26, 2020 and won the $3^{\mathrm{rd}}$ place award.&lt;/p&gt;
+&lt;p&gt;This last minute idea worked out quite well.  Be on the lookout for a full publication on this topic in the future.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
