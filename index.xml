@@ -27,6 +27,61 @@
       <pubDate>Sun, 15 Mar 2020 00:00:00 +0100</pubDate>
       <guid>/courses/mine-3544-mineral-processing-lab/example1/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;/media/process-lab/3544%20Lab%2002%20Sampling%20and%20Splitting.pdf&#34; target=&#34;_blank&#34;&gt;Lab 2&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;calcuations&#34;&gt;Calcuations&lt;/h1&gt;
+&lt;h2 id=&#34;bucket-fill-fraction&#34;&gt;Bucket Fill Fraction&lt;/h2&gt;
+&lt;p&gt;If you go into the field to collect a sample, you very well may not have a scale.  If you have a 55 gallon drum, or a 1 gallon bucket, it is helpful to understand what fraction of that bucket to fill in order to obtain a large enough sample.&lt;/p&gt;
+&lt;p&gt;For this lab exercise, we will collecting a 4 kg sample in a 2 gallon bucket with an ore to then split into 4 1 kg lots.  What fraction of the bucket should we fill up to obtain a 4 kg sample?  We are given the following information:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2 gallon bucket&lt;/li&gt;
+&lt;li&gt;3.785 L  = 1 gal&lt;/li&gt;
+&lt;li&gt;Crushed ore has 30% void space&lt;/li&gt;
+&lt;li&gt;Density of the solid ore is about 2.65 g/cm&lt;sup&gt;3&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We can assume the mass of air is negligible.&lt;/p&gt;
+&lt;p&gt;Using the above information, we know that:&lt;/p&gt;
+&lt;p&gt;$$
+\rho_\mathrm{ore} = \frac{m_\mathrm{ore}}{V_\mathrm{ore}}
+$$&lt;/p&gt;
+&lt;p&gt;We also know that the mass of air is negligible, so:&lt;/p&gt;
+&lt;p&gt;$$\begin{aligned} m_\mathrm{sample} &amp;amp;= m_\mathrm{ore} + \xcancel{m_\mathrm{air}} \\ m_\mathrm{sample} &amp;amp;= m_\mathrm{ore} \end{aligned}$$&lt;/p&gt;
+&lt;p&gt;Because $m_\mathrm{sample} = m_\mathrm{ore}$, we can simply use the formula for density and given information to find $V_\mathrm{ore}$:&lt;/p&gt;
+&lt;p&gt;$$
+\begin{aligned}
+\rho_\mathrm{ore} &amp;amp;= \frac{m_\mathrm{ore}}{V_\mathrm{ore}} \\&lt;br&gt;
+2.65 \frac{g}{cm^3}  &amp;amp;= \frac{4,000 g}{V_\mathrm{ore}}\\&lt;br&gt;
+V_\mathrm{ore} &amp;amp; \approx 1509 cm^3 \approx 1.51 L
+\end{aligned}
+$$&lt;/p&gt;
+&lt;p&gt;Next, we can use the information about void space to calculate the $V_\mathrm{air}$ and then $V_\mathrm{sample}$.  First writing down the volume relationship for void space, converting the 30% void space into a fraction:&lt;/p&gt;
+&lt;p&gt;$$
+0.3 = \frac{V_\mathrm{air}}{V_\mathrm{ore} + V_\mathrm{air}}
+$$&lt;/p&gt;
+&lt;p&gt;Substituting in $V_\mathrm{ore} = 1.51L$ and solving for $V_\mathrm{air}$ gives:&lt;/p&gt;
+&lt;p&gt;$$
+\begin{aligned}
+0.3 &amp;amp;= \frac{V_\mathrm{air}}{1.51 + V_\mathrm{air}} \\&lt;br&gt;
+0.3 \times 1.51 + 0.3V_\mathrm{air} &amp;amp;= V_\mathrm{air} \\&lt;br&gt;
+0.3 \times 1.51 &amp;amp;= (1-0.3) V_\mathrm{air}\\&lt;br&gt;
+V_\mathrm{air} &amp;amp;= \frac{0.3 \times 1.51}{(1-0.3)}\\&lt;br&gt;
+V_\mathrm{air} &amp;amp;= 0.647 L
+\end{aligned}
+$$&lt;/p&gt;
+&lt;p&gt;So now we can calculate our total volume:&lt;/p&gt;
+&lt;p&gt;$$
+\begin{aligned}
+V_\mathrm{sample} &amp;amp;= V_\mathrm{ore} + V_\mathrm{air}\\&lt;br&gt;
+V_\mathrm{sample} &amp;amp;= 1.51L + 0.647L \\&lt;br&gt;
+V_\mathrm{sample} &amp;amp;= 2.16
+\end{aligned}
+$$&lt;/p&gt;
+&lt;p&gt;And converting 2 gal = 7.57 L we can see that:&lt;/p&gt;
+&lt;p&gt;\begin{align}
+pct_\mathrm{bucket} &amp;amp;= \frac{V_\mathrm{sample}}{V_\mathrm{bucket}} \times 100 \\&lt;br&gt;
+pct_\mathrm{bucket} &amp;amp;= \frac{2.16 L}{7.57 L} \times 100 \\&lt;br&gt;
+pct_\mathrm{bucket} &amp;amp;= 28.5 pct \\&lt;br&gt;
+\mathrm{frac}_\mathrm{bucket} &amp;amp;\approx \frac{1}{3}
+\end{align}&lt;/p&gt;
+&lt;p&gt;So for a two gal bucket, we need to fill up about $\frac{1}{3}$ to obtain approximately a 4 kg sample.&lt;/p&gt;
 </description>
     </item>
     
@@ -265,24 +320,6 @@ SE
 &lt;/div&gt;
 &lt;p&gt;This poster was entered in the Mineral Processing Division Poster Contest at the SME annual meeting in Phoenix, AZ, February 26, 2020 and won the $3^{\mathrm{rd}}$ place award.&lt;/p&gt;
 &lt;p&gt;This last minute idea worked out quite well.  Be on the lookout for a full publication on this topic in the future.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Privacy Policy</title>
-      <link>/privacy/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>/privacy/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Terms</title>
-      <link>/terms/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>/terms/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
