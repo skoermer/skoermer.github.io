@@ -99,6 +99,8 @@ pct_\mathrm{bucket} &amp;amp;= 28.5 pct \\&lt;br&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;a href=&#34;/media/process-lab/lab3-sizing.pdf&#34; target=&#34;_blank&#34;&gt;Lab 3&lt;/a&gt;&lt;/p&gt;
+&lt;div id=&#34;example-data-analysis&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Example Data Analysis&lt;/h1&gt;
 &lt;p&gt;Videos below showing how to do the data analysis for this lab in both excel and R.&lt;/p&gt;
 &lt;p&gt;The following example data set is used:&lt;/p&gt;
 &lt;table class=&#34;table&#34; style=&#34;margin-left: auto; margin-right: auto;&#34;&gt;
@@ -295,6 +297,73 @@ Pan
 &lt;li&gt;&lt;a href=&#34;https://rstudio.com/products/rstudio/download/#download&#34;&gt;Windows and Mac&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Video to be posted by Tuesday&lt;/p&gt;
+&lt;p&gt;Code for generating plots:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+
+size.vec &amp;lt;- seq(from = 0.01, to = 0.1, by = 0.01)
+size.use &amp;lt;- numeric()
+for(i in 1:4){
+  size.use &amp;lt;- c(size.use,size.vec*10^(i-1))
+}
+size.use &amp;lt;- unique(size.use)
+size.majors &amp;lt;- 0.01*10^seq(from = 0, to = 4, by = 1)
+size.majors.gs &amp;lt;- log(size.majors)
+frac.pass &amp;lt;- seq(from =  0.01, to = 0.1, by = 0.01)
+frac.pass &amp;lt;- c(frac.pass,frac.pass*10)
+frac.pass.majors &amp;lt;- c(0.01,0.1,1)
+frac.pass.majors.gs &amp;lt;- log(frac.pass.majors)
+frac.pass &amp;lt;- unique(frac.pass)
+frac.pass &amp;lt;- frac.pass[-10]
+gs.transf.size &amp;lt;- log(size.use)
+gs.transf.frac &amp;lt;- log(frac.pass)
+main.label &amp;lt;- paste(&amp;quot;G-S Plot By:  &amp;quot;, user.name)
+user.first &amp;lt;- unlist(strsplit(user.name, split =&amp;quot; &amp;quot;))[1]
+user.last &amp;lt;- unlist(strsplit(user.name, split =&amp;quot; &amp;quot;))[2]
+
+pdf(paste(user.last, user.first,&amp;quot;G-S_Plot.pdf&amp;quot;, sep = &amp;quot;_&amp;quot;))
+par(mar = c(4,4,4,1))
+plot(1,ylim = range(gs.transf.frac), xlim = range(gs.transf.size),main=  main.label,xlab =&amp;quot;Size (mm)&amp;quot;, ylab = &amp;quot;Cumulative Fraction Passing&amp;quot;, xaxt = &amp;quot;n&amp;quot;, yaxt = &amp;quot;n&amp;quot;, cex = 0.8)
+
+abline(v = gs.transf.size, lty = 2, col = &amp;quot;grey&amp;quot;, lwd = 0.7)
+abline(v = size.majors.gs, lty = 2)
+abline(h = gs.transf.frac, lty = 2, col = &amp;quot;grey&amp;quot;, lwd = 0.7)
+abline(h = frac.pass.majors.gs, lty = 2)
+axis(1,at = size.majors.gs, labels = as.character(size.majors), cex.axis = 0.5)
+axis(2,at = gs.transf.frac, labels = FALSE, cex.axis = 0.6)
+axis(2, at = gs.transf.frac[c(1,seq(from = 2, to =  10, by = 2),seq(from = 11, to = 19, by = 2))], tick = FALSE,labels = frac.pass[c(1,seq(from = 2, to =  10, by = 2),seq(from = 11, to = 19, by = 2))], cex.axis = 0.5)
+points(ln.X, gs.ln.Y, pch = 19, col = &amp;quot;red&amp;quot;)
+lines(gs.transf.size, m*gs.transf.size - m*log(k))
+abline(v = log(k), col =&amp;quot;red&amp;quot;, lty = 2)
+text(x = log(k), y = log(0.01),labels = paste(&amp;quot;k = &amp;quot;,round(k, digits = 3), &amp;quot;mm&amp;quot;, sep = &amp;quot;&amp;quot;), adj = c(0,1))
+dev.off()
+
+
+size.majors.rr &amp;lt;- log(size.majors)
+frac.pass.majors.rr &amp;lt;- log(-log(1-frac.pass.majors))
+frac.pass &amp;lt;- unique(frac.pass)
+frac.pass &amp;lt;- frac.pass[-10]
+rr.transf.size &amp;lt;- log(size.use)
+rr.transf.frac &amp;lt;- log(-log(1-frac.pass))
+main.label &amp;lt;- paste(&amp;quot;R-R Plot By: &amp;quot;, user.name)
+
+pdf(paste(user.last, user.first,&amp;quot;R-R_Plot.pdf&amp;quot;, sep = &amp;quot;_&amp;quot;))
+par(mar = c(4,4,4,1))
+plot(NA,ylim = range(rr.transf.frac), xlim = range(rr.transf.size),xlab =&amp;quot;Size (mm)&amp;quot;, main = main.label, ylab = &amp;quot;Cumulative Fraction Passing&amp;quot;, xaxt = &amp;quot;n&amp;quot;, yaxt = &amp;quot;n&amp;quot;, cex = 0.8)
+abline(v = rr.transf.size, lty = 2, col = &amp;quot;grey&amp;quot;, lwd = 0.7)
+abline(v = size.majors.rr, lty = 2)
+abline(h = gs.transf.frac, lty = 2, col = &amp;quot;grey&amp;quot;, lwd = 0.7)
+abline(h = frac.pass.majors.rr, lty = 2)
+abline(h = rr.transf.frac[length(rr.transf.frac)], lty = 2)
+abline(h = log(-log(1-0.6321)), lty = 2, col=  &amp;quot;red&amp;quot;)
+axis(1,at = size.majors.rr, labels = as.character(size.majors), cex.axis = 0.5)
+axis(2,at = rr.transf.frac, labels = FALSE, cex.axis = 0.6)
+axis(2, at = rr.transf.frac[c(1,seq(from = 2, to =  10, by = 2),seq(from = 11, to = 19, by = 2))], tick = FALSE,labels = frac.pass[c(1,seq(from = 2, to =  10, by = 2),seq(from = 11, to = 19, by = 2))], cex.axis = 0.5)
+points(ln.X, rr.ln.Y, pch = 19, col = &amp;quot;blue&amp;quot;)
+lines(rr.transf.size, rr.m*rr.transf.size - rr.m*log(R))
+abline(v = log(R), col =&amp;quot;red&amp;quot;, lty = 2)
+text(x = log(R), y = log(0.01),labels = paste(&amp;quot;R = &amp;quot;,round(R, digits = 3), &amp;quot;mm&amp;quot;, sep = &amp;quot;&amp;quot;), adj = c(0,1))
+dev.off()&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 </description>
     </item>
