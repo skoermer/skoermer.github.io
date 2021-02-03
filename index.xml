@@ -99,8 +99,9 @@ pct_\mathrm{bucket} &amp;amp;= 28.5 pct \\&lt;br&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;a href=&#34;/media/process-lab/lab3-sizing.pdf&#34; target=&#34;_blank&#34;&gt;Lab 3&lt;/a&gt;&lt;/p&gt;
-&lt;div id=&#34;example-data-analysis&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Example Data Analysis&lt;/h1&gt;
+&lt;div id=&#34;example-data&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Example Data&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Make sure you use fraction passing in the calculations. If you use percent instead of fraction passing the equations and code will not work.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Videos below showing how to do the data analysis for this lab in either Excel or R.&lt;/p&gt;
 &lt;p&gt;The following example data set is used:&lt;/p&gt;
 &lt;table class=&#34;table&#34; style=&#34;margin-left: auto; margin-right: auto;&#34;&gt;
@@ -282,7 +283,9 @@ Pan
 &lt;p&gt;&lt;strong&gt;For average size in class:&lt;/strong&gt; &lt;span class=&#34;math inline&#34;&gt;\(82.1584 = \sqrt{90 \times 75}\)&lt;/span&gt;. For the last row &lt;span class=&#34;math inline&#34;&gt;\(1.3 \times 10^{-7} = e^{-\frac{1}{0.063}}\)&lt;/span&gt;.&lt;/p&gt;
 &lt;div id=&#34;excel&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Excel&lt;/h2&gt;
-&lt;p&gt;Video to be posted by Wednesday&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;For this lab, I would recommend making the plots by hand if using Excel. See the end of the video on using R to see how the plots should look.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;https://www.youtube.com/embed/RX4zMQV2OrA&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;
+&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;div id=&#34;r&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;R&lt;/h2&gt;
@@ -296,7 +299,7 @@ Pan
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://rstudio.com/products/rstudio/download/#download&#34;&gt;Windows and Mac&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Forgot to mention, make sure you use fraction passing in the code. If you use percent instead of fraction passing the code will break.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;See the beginning of the Excel video for some more insight into the fraction passing calculations&lt;/em&gt;&lt;/p&gt;
 &lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;https://www.youtube.com/embed/BbrlipTD-lU&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;
 &lt;/iframe&gt;
 &lt;p&gt;Code for generating plots:&lt;/p&gt;
