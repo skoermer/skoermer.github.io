@@ -5,12 +5,22 @@
     <link>/post/</link>
       <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 14 Feb 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
       <link>/post/</link>
     </image>
+    
+    <item>
+      <title>Lab 9 Electrostatic Separation</title>
+      <link>/post/lab-9/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>/post/lab-9/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;/media/process-lab/3544 Lab 09 Electrostatic Separation.pdf&#34; target=&#34;_blank&#34;&gt;Lab 9&lt;/a&gt;&lt;/p&gt;
+&lt;iframe width=&#34;956&#34; height=&#34;538&#34; src=&#34;https://www.youtube.com/embed/hWT9hU1QSi8&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

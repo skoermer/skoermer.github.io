@@ -389,28 +389,19 @@ dev.off()&lt;/code&gt;&lt;/pre&gt;
     </item>
     
     <item>
-      <title>Lab 5 Flotation Help</title>
-      <link>/courses/mine-3544-mineral-processing-lab/lab5_help/</link>
-      <pubDate>Sun, 15 Mar 2020 00:00:00 +0100</pubDate>
-      <guid>/courses/mine-3544-mineral-processing-lab/lab5_help/</guid>
+      <title>Lab 5 Flotation</title>
+      <link>/courses/mine-3544-mineral-processing-lab/lab-5/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>/courses/mine-3544-mineral-processing-lab/lab-5/</guid>
       <description>
-&lt;script src=&#34;/rmarkdown-libs/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;/rmarkdown-libs/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/courses/mine-3544-mineral-processing-lab/lab-5/index.en_files/kePrint/kePrint.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;/courses/mine-3544-mineral-processing-lab/lab-5/index.en_files/lightable/lightable.css&#34; rel=&#34;stylesheet&#34; /&gt;
 
 &lt;div id=&#34;TOC&#34;&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#data&#34;&gt;Data:&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#plot-1&#34;&gt;Plot 1&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#grade-vs.-cu-recovery&#34;&gt;Grade vs. Cu Recovery&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#grade-vs.-se&#34;&gt;Grade vs. SE&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#plot-2&#34;&gt;Plot 2&lt;/a&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#mathrmcufes_2-recovery-vs.-mathrmsio_2-rejection&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;\(\mathrm{CuFeS}_2\)&lt;/span&gt; Recovery vs. &lt;span class=&#34;math inline&#34;&gt;\(\mathrm{SiO}_2\)&lt;/span&gt; Rejection&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#mathrmse-vs.-mathrmsio_2-rejection&#34;&gt;&lt;span class=&#34;math inline&#34;&gt;\(\mathrm{SE}\)&lt;/span&gt; vs. &lt;span class=&#34;math inline&#34;&gt;\(\mathrm{SiO}_2\)&lt;/span&gt; Rejection&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
+
 &lt;/div&gt;
 
+&lt;p&gt;&lt;a href=&#34;/media/process-lab/3544 Lab 05 Flotation.pdf&#34; target=&#34;_blank&#34;&gt;Lab 5&lt;/a&gt;&lt;/p&gt;
 &lt;div id=&#34;data&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Data:&lt;/h2&gt;
 &lt;table class=&#34;table&#34; style=&#34;margin-left: auto; margin-right: auto;&#34;&gt;
@@ -521,7 +512,7 @@ SE
 &lt;div id=&#34;plot-1&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Plot 1&lt;/h1&gt;
 &lt;p&gt;For the first plot, plotting the data gives:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/courses/mine-3544-mineral-processing-lab/lab5_help_files/figure-html/plot1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/courses/mine-3544-mineral-processing-lab/lab-5/index.en_files/figure-html/plot1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;First of all, remember each group ran the same test with the same procedure, the only difference being the two stages in the plant we simulated.&lt;/p&gt;
 &lt;div id=&#34;grade-vs.-cu-recovery&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Grade vs. Cu Recovery&lt;/h2&gt;
@@ -535,9 +526,9 @@ SE
 \end{equation}\]&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Where &lt;span class=&#34;math inline&#34;&gt;\(\mathrm{R}_x\)&lt;/span&gt; is the recovery of component &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;. On the plot, you are seeing that for an increase in grade you are seeing an increase in separation efficiency. In our observed data, recovery does not change much. Lets pretend that it does not change at all. If &lt;span class=&#34;math inline&#34;&gt;\(\mathrm{R}_\mathrm{Cu}\)&lt;/span&gt; is unchanged, but grade increases, this means that the &lt;span class=&#34;math inline&#34;&gt;\(\mathrm{R}_{\mathrm{SiO}_2}\)&lt;/span&gt; must have decreased. Keeping this assumption in mind, these points seem to make sense.&lt;/p&gt;
 &lt;p&gt;Obviously, this upward trend cannot continue forever. At the maximum &lt;span class=&#34;math inline&#34;&gt;\(\mathrm{Cu}\)&lt;/span&gt; grade, determined by the &lt;span class=&#34;math inline&#34;&gt;\(\mathrm{Cu}\)&lt;/span&gt; content in &lt;span class=&#34;math inline&#34;&gt;\(\mathrm{CuFeS}_2\)&lt;/span&gt;, we would recover a speck of &lt;span class=&#34;math inline&#34;&gt;\(\mathrm{CuFeS}_2\)&lt;/span&gt;, and no &lt;span class=&#34;math inline&#34;&gt;\(\mathrm{SiO}_2\)&lt;/span&gt;. This would make &lt;span class=&#34;math inline&#34;&gt;\(\mathrm{SE} = \mathrm{R}_{\mathrm{Cu}} - \mathrm{R}_{\mathrm{SiO}_2} \approx 0-0\)&lt;/span&gt;. Therefore the the true line connecting the &lt;span class=&#34;math inline&#34;&gt;\(\mathrm{SE}\)&lt;/span&gt; points may look something like this:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/courses/mine-3544-mineral-processing-lab/lab5_help_files/figure-html/plot2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/courses/mine-3544-mineral-processing-lab/lab-5/index.en_files/figure-html/plot2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;However, is the process actually going to get 100% recovery of copper? If so, can we really say at what grade? A more conservative approach, knowing the relationship between grade and &lt;span class=&#34;math inline&#34;&gt;\(\mathrm{SE}\)&lt;/span&gt; is shown below:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/courses/mine-3544-mineral-processing-lab/lab5_help_files/figure-html/plot3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/courses/mine-3544-mineral-processing-lab/lab-5/index.en_files/figure-html/plot3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;div style=&#34;page-break-after: always;&#34;&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -548,11 +539,11 @@ SE
 \mathrm{R}_{\mathrm{CuFeS}_2} = \mathrm{R}_{\mathrm{Cu}}
 \]&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Because &lt;span class=&#34;math inline&#34;&gt;\(\mathrm{CuFeS}_2\)&lt;/span&gt; is the only copper containing mineral present. Keeping this in mind the resulting plot looks like:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/courses/mine-3544-mineral-processing-lab/lab5_help_files/figure-html/plot4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/courses/mine-3544-mineral-processing-lab/lab-5/index.en_files/figure-html/plot4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;div id=&#34;mathrmcufes_2-recovery-vs.-mathrmsio_2-rejection&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;&lt;span class=&#34;math inline&#34;&gt;\(\mathrm{CuFeS}_2\)&lt;/span&gt; Recovery vs. &lt;span class=&#34;math inline&#34;&gt;\(\mathrm{SiO}_2\)&lt;/span&gt; Rejection&lt;/h2&gt;
 &lt;p&gt;Similar to grade, vs. recovery, we know that as &lt;span class=&#34;math inline&#34;&gt;\(\mathrm{SiO}_2\)&lt;/span&gt; rejection increases, recovery will decrease. We see this trend in the data. However, we can only guess as to what happens for an &lt;span class=&#34;math inline&#34;&gt;\(\mathrm{SiO}_2\)&lt;/span&gt; rejection. It makes sense to draw a straight line from the last data point to &lt;span class=&#34;math inline&#34;&gt;\((100,0)\)&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/courses/mine-3544-mineral-processing-lab/lab5_help_files/figure-html/plot5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/courses/mine-3544-mineral-processing-lab/lab-5/index.en_files/figure-html/plot5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;mathrmse-vs.-mathrmsio_2-rejection&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;&lt;span class=&#34;math inline&#34;&gt;\(\mathrm{SE}\)&lt;/span&gt; vs. &lt;span class=&#34;math inline&#34;&gt;\(\mathrm{SiO}_2\)&lt;/span&gt; Rejection&lt;/h2&gt;
@@ -575,10 +566,46 @@ SE
 \end{aligned}
 \]&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;So we know that although &lt;span class=&#34;math inline&#34;&gt;\(\mathrm{SE}\)&lt;/span&gt; is trending upwards, the sudden downward change in recovery will cause &lt;span class=&#34;math inline&#34;&gt;\(\mathrm{SE}\)&lt;/span&gt; to eventually reach the point &lt;span class=&#34;math inline&#34;&gt;\((100,0)\)&lt;/span&gt;. We don’t know when, but a good guess is to just draw a straight line.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/courses/mine-3544-mineral-processing-lab/lab5_help_files/figure-html/plot6-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/courses/mine-3544-mineral-processing-lab/lab-5/index.en_files/figure-html/plot6-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Lab 6 Crushing Plant Simulation</title>
+      <link>/courses/mine-3544-mineral-processing-lab/lab-6/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>/courses/mine-3544-mineral-processing-lab/lab-6/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;/media/process-lab/3544 Lab 06 Crushing Plant Simulation.pdf&#34; target=&#34;_blank&#34;&gt;Lab 6&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lab 7 Thickening</title>
+      <link>/courses/mine-3544-mineral-processing-lab/lab-7/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>/courses/mine-3544-mineral-processing-lab/lab-7/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;/media/process-lab/3544 Lab 07 Thickening.pdf&#34; target=&#34;_blank&#34;&gt;Lab 7&lt;/a&gt;&lt;/p&gt;
+&lt;iframe width=&#34;956&#34; height=&#34;538&#34; src=&#34;https://www.youtube.com/embed/GbssYZg9Jeg&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lab 8 Assay and Analysis</title>
+      <link>/courses/mine-3544-mineral-processing-lab/lab-8/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>/courses/mine-3544-mineral-processing-lab/lab-8/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;/media/process-lab/3544 Lab 08 Assay and Analysis.pdf&#34; target=&#34;_blank&#34;&gt;Lab 8&lt;/a&gt;&lt;/p&gt;
+&lt;iframe width=&#34;956&#34; height=&#34;538&#34; src=&#34;https://www.youtube.com/embed/NpgZv4YTPcI&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
+      <title>Documents and Description</title>
+      <link>/courses/mine-3544-mineral-processing-lab/final-project-proposal/</link>
+      <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>/courses/mine-3544-mineral-processing-lab/final-project-proposal/</guid>
+      <description></description>
     </item>
     
   </channel>
