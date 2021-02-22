@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Scott Koermer</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 14 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 22 Feb 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Scott Koermer</title>
@@ -516,7 +516,7 @@ SE
 &lt;p&gt;First of all, remember each group ran the same test with the same procedure, the only difference being the two stages in the plant we simulated.&lt;/p&gt;
 &lt;div id=&#34;grade-vs.-cu-recovery&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Grade vs. Cu Recovery&lt;/h2&gt;
-&lt;p&gt;We observe that as &lt;span class=&#34;math inline&#34;&gt;\(\mathrm{Cu}\)&lt;/span&gt; grade increases, recovery decreases. This is consistent with the typical grade recovery curve. If recovery is 100%, the grade has to be the feed grade to the process because it is so difficult to get every single particle into the concentrate. We can never get 100% recovery, we can only asymptotically approach 100% recovery. Similarly, we cannot reach 100% grade. Theoretically, if grade is 100% then recovery approaches 0. 100% grade is like if you had a 10,000 ton pile of of rock with a 100 lb of tiny gold particles in it and you picked one of the gold flakes out with a tweezers. You would have a 100% grade concentrate, but practically 0% recovery.&lt;/p&gt;
+&lt;p&gt;We observe that as &lt;span class=&#34;math inline&#34;&gt;\(\mathrm{Cu}\)&lt;/span&gt; grade increases, recovery decreases. This is consistent with the typical grade recovery curve. If recovery is 100%, the grade has to be the feed grade to the process because it is so difficult to get every single particle into the concentrate. We can never get 100% recovery, we can only asymptotically approach 100% recovery. Similarly, we cannot reach 100% grade. Theoretically, if grade is 100% then recovery approaches 0. 100% grade is like if you had a 10,000 ton pile of of rock with a 100 lb of tiny gold particles in it and you picked one of the gold flakes out with tweezers. You would have a 100% grade concentrate, but practically 0% recovery.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;grade-vs.-se&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Grade vs. SE&lt;/h2&gt;
@@ -615,7 +615,65 @@ SE
       <link>/courses/mine-3544-mineral-processing-lab/final-project-proposal/</link>
       <pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate>
       <guid>/courses/mine-3544-mineral-processing-lab/final-project-proposal/</guid>
-      <description></description>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;/media/process-lab/proj-desc.pdf&#34; target=&#34;_blank&#34;&gt;Project Description&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;/media/process-lab/pguide.pdf&#34; target=&#34;_blank&#34;&gt;Proposal Guide&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;/media/process-lab/ptech-rubric.pdf&#34; target=&#34;_blank&#34;&gt;Proposal Technical Rubric&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;/media/process-lab/pwrite-rubric.pdf&#34; target=&#34;_blank&#34;&gt;Proposal Writing Rubric&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;proposal-objective&#34;&gt;Proposal Objective&lt;/h2&gt;
+&lt;p&gt;You are working at a VT MinE Inc. and are tasked with solving one of two problems.  As it is quite expensive to change process parameters in the processing plant, the company has decided to contract the test work out to a laboratory.  Technicians in the laboratory have a scientific background, and some background in mineral processing, but are not fully aware of your goals for testing and do not have extensive knowledge of your process.&lt;/p&gt;
+&lt;p&gt;As part of the investigation, you must create a document with the following purposes:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Documentation:&lt;/strong&gt;  Imagine 10 years from now, someone wants to know about the test work performed.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Approval:&lt;/strong&gt;  Your supervisor would like to know about your plans before authorizing a $75,000 payment to the contracted laboratory, as well as a time line for the completion of the work and data analysis on your end.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Communication:&lt;/strong&gt;  The laboratory technicians have to know what tests to run, the procedure you would like for each tests, and what data to record.  The technicians are competent in making minor decisions, but need some guidance to perform the tests and obtain usable data.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;After submitting your proposal, the tests will be completed by the lab and you will be given back the requested information.&lt;/p&gt;
+&lt;p&gt;You should work with your group members in developing the proposal, and the data analysis for the final report, but &lt;em&gt;&lt;strong&gt;each individual must submit their their own proposal and final report.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Documents and Data</title>
+      <link>/courses/mine-3544-mineral-processing-lab/final-report/</link>
+      <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>/courses/mine-3544-mineral-processing-lab/final-report/</guid>
+      <description>&lt;h2 id=&#34;documents&#34;&gt;Documents&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;/media/process-lab/proj-desc.pdf&#34; target=&#34;_blank&#34;&gt;Project Description&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;/media/process-lab/fguide.pdf&#34; target=&#34;_blank&#34;&gt;Final Report Guide&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;/media/process-lab/ftech-rubric.pdf&#34; target=&#34;_blank&#34;&gt;Final Report Technical Rubric&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;/media/process-lab/fwrite-rubric.pdf&#34; target=&#34;_blank&#34;&gt;Final Report Writing Rubric&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;data&#34;&gt;Data&lt;/h2&gt;
+&lt;p&gt;Data is simulated from data collected in previous years, each group has unique data.&lt;/p&gt;
+&lt;h3 id=&#34;monday&#34;&gt;Monday&lt;/h3&gt;
+&lt;h3 id=&#34;tuesday&#34;&gt;Tuesday&lt;/h3&gt;
+&lt;h3 id=&#34;wednesday&#34;&gt;Wednesday&lt;/h3&gt;
+</description>
     </item>
     
     <item>
