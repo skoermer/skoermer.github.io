@@ -695,7 +695,7 @@ SE
       <link>/courses/mine-3544-mineral-processing-lab/final-report/</link>
       <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
       <guid>/courses/mine-3544-mineral-processing-lab/final-report/</guid>
-      <description>&lt;h2 id=&#34;documents&#34;&gt;Documents&lt;/h2&gt;
+      <description>&lt;h1 id=&#34;documents&#34;&gt;Documents&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;/media/process-lab/proj-desc.pdf&#34; target=&#34;_blank&#34;&gt;Project Description&lt;/a&gt;&lt;/p&gt;
@@ -710,8 +710,36 @@ SE
 &lt;p&gt;&lt;a href=&#34;/media/process-lab/fwrite-rubric.pdf&#34; target=&#34;_blank&#34;&gt;Final Report Writing Rubric&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;data&#34;&gt;Data&lt;/h2&gt;
+&lt;h1 id=&#34;data&#34;&gt;Data&lt;/h1&gt;
 &lt;p&gt;Data is simulated from data collected in previous years, each group has unique data.&lt;/p&gt;
+&lt;h2 id=&#34;some-notes-on-the-data-and-tests&#34;&gt;Some Notes on the Data and Tests&lt;/h2&gt;
+&lt;p&gt;For any differences between your stated procedure in your proposal and the procedure in the report from &lt;em&gt;New Data from Old Data Labs&lt;/em&gt;, use the procedure outlined in the report given to you.&lt;/p&gt;
+&lt;h3 id=&#34;comparison-of-frother-u-and-x&#34;&gt;Comparison of Frother U and X&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Frother U was tested at a dosage of 1, 2, and 3 drops.  Frother X was tested at a dosage of 1, 2, and 3 drops.  No repeat tests were conducted.&lt;/li&gt;
+&lt;li&gt;A mass balance is not required for the data analysis.  Do not use the given feed grade for any performance calculations.  Back calculate feed masses.&lt;/li&gt;
+&lt;li&gt;The top size of the rougher flotation feed used in testing was unknown, but can be estimated from the size distribution fits&lt;/li&gt;
+&lt;li&gt;There was no qualitative difference in visually inspecting the froth appearance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;kyanite-flotation&#34;&gt;Kyanite Flotation&lt;/h3&gt;
+&lt;p&gt;When attrition scrubbing was used, the process flowsheet is:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph LR;
+  F[Feed]--&amp;gt;S[Attrition Scrubbing];
+  S--&amp;gt;Fl[Flotation];
+  S--&amp;gt;U[&amp;quot;Underflow (UF)&amp;quot;];
+  Fl--&amp;gt;C[CON];
+  Fl--&amp;gt;T[TAIL];
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;When attrition scrubbing was &lt;em&gt;&lt;strong&gt;not&lt;/strong&gt;&lt;/em&gt; used, the process flowsheet is:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph LR;
+  F[Feed]--&amp;gt;Fl[Flotation];
+  Fl--&amp;gt;C[CON];
+  Fl--&amp;gt;T[TAIL];
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Do not use the given grade for performance calculations.  A mass balance is not required for this assignment.&lt;/li&gt;
+&lt;li&gt;Check the SE between Fe and Al, see if attrition scrubbing makes a difference.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&#34;monday&#34;&gt;Monday&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;/media/process-lab/final/BBLT Report.pdf&#34; target=&#34;_blank&#34;&gt;BBLT&lt;/a&gt;&lt;/li&gt;

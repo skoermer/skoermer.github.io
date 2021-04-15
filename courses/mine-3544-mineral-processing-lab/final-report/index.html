@@ -772,9 +772,10 @@
 
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#documents">Documents</a></li>
-    <li><a href="#data">Data</a>
+    <li><a href="#some-notes-on-the-data-and-tests">Some Notes on the Data and Tests</a>
       <ul>
+        <li><a href="#comparison-of-frother-u-and-x">Comparison of Frother U and X</a></li>
+        <li><a href="#kyanite-flotation">Kyanite Flotation</a></li>
         <li><a href="#monday">Monday</a></li>
         <li><a href="#tuesday">Tuesday</a></li>
         <li><a href="#wednesday">Wednesday</a></li>
@@ -796,7 +797,7 @@
           <h1>Documents and Data</h1>
 
           <div class="article-style">
-            <h2 id="documents">Documents</h2>
+            <h1 id="documents">Documents</h1>
 <ul>
 <li>
 <p><a href="/media/process-lab/proj-desc.pdf" target="_blank">Project Description</a></p>
@@ -811,8 +812,36 @@
 <p><a href="/media/process-lab/fwrite-rubric.pdf" target="_blank">Final Report Writing Rubric</a></p>
 </li>
 </ul>
-<h2 id="data">Data</h2>
+<h1 id="data">Data</h1>
 <p>Data is simulated from data collected in previous years, each group has unique data.</p>
+<h2 id="some-notes-on-the-data-and-tests">Some Notes on the Data and Tests</h2>
+<p>For any differences between your stated procedure in your proposal and the procedure in the report from <em>New Data from Old Data Labs</em>, use the procedure outlined in the report given to you.</p>
+<h3 id="comparison-of-frother-u-and-x">Comparison of Frother U and X</h3>
+<ul>
+<li>Frother U was tested at a dosage of 1, 2, and 3 drops.  Frother X was tested at a dosage of 1, 2, and 3 drops.  No repeat tests were conducted.</li>
+<li>A mass balance is not required for the data analysis.  Do not use the given feed grade for any performance calculations.  Back calculate feed masses.</li>
+<li>The top size of the rougher flotation feed used in testing was unknown, but can be estimated from the size distribution fits</li>
+<li>There was no qualitative difference in visually inspecting the froth appearance</li>
+</ul>
+<h3 id="kyanite-flotation">Kyanite Flotation</h3>
+<p>When attrition scrubbing was used, the process flowsheet is:</p>
+<pre><code class="language-mermaid">graph LR;
+  F[Feed]--&gt;S[Attrition Scrubbing];
+  S--&gt;Fl[Flotation];
+  S--&gt;U[&quot;Underflow (UF)&quot;];
+  Fl--&gt;C[CON];
+  Fl--&gt;T[TAIL];
+</code></pre>
+<p>When attrition scrubbing was <em><strong>not</strong></em> used, the process flowsheet is:</p>
+<pre><code class="language-mermaid">graph LR;
+  F[Feed]--&gt;Fl[Flotation];
+  Fl--&gt;C[CON];
+  Fl--&gt;T[TAIL];
+</code></pre>
+<ul>
+<li>Do not use the given grade for performance calculations.  A mass balance is not required for this assignment.</li>
+<li>Check the SE between Fe and Al, see if attrition scrubbing makes a difference.</li>
+</ul>
 <h3 id="monday">Monday</h3>
 <ul>
 <li><a href="/media/process-lab/final/BBLT Report.pdf" target="_blank">BBLT</a></li>
