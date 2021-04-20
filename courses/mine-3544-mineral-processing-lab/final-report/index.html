@@ -817,6 +817,14 @@
 <h2 id="some-notes-on-the-data-and-tests">Some Notes on the Data and Tests</h2>
 <p>For any differences between your stated procedure in your proposal and the procedure in the report from <em>New Data from Old Data Labs</em>, use the procedure outlined in the report given to you.</p>
 <h3 id="comparison-of-frother-u-and-x">Comparison of Frother U and X</h3>
+<p>The process flow chart is:</p>
+<pre><code class="language-mermaid">graph LR;
+  F[Feed]--&gt;R[Rougher];
+  R--&gt;C[Cleaner];
+  R--&gt;RT[&quot;Rougher Tailings&quot;];
+  C--&gt;CC[&quot;Cleaner Con&quot;];
+  C--&gt;CT[&quot;Cleaner Tails&quot;];
+</code></pre>
 <ul>
 <li>Frother U was tested at a dosage of 1, 2, and 3 drops.  Frother X was tested at a dosage of 1, 2, and 3 drops.  No repeat tests were conducted.</li>
 <li>A mass balance is not required for the data analysis.  Do not use the given feed grade for any performance calculations.  Back calculate feed masses.</li>

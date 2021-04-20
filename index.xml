@@ -715,6 +715,14 @@ SE
 &lt;h2 id=&#34;some-notes-on-the-data-and-tests&#34;&gt;Some Notes on the Data and Tests&lt;/h2&gt;
 &lt;p&gt;For any differences between your stated procedure in your proposal and the procedure in the report from &lt;em&gt;New Data from Old Data Labs&lt;/em&gt;, use the procedure outlined in the report given to you.&lt;/p&gt;
 &lt;h3 id=&#34;comparison-of-frother-u-and-x&#34;&gt;Comparison of Frother U and X&lt;/h3&gt;
+&lt;p&gt;The process flow chart is:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph LR;
+  F[Feed]--&amp;gt;R[Rougher];
+  R--&amp;gt;C[Cleaner];
+  R--&amp;gt;RT[&amp;quot;Rougher Tailings&amp;quot;];
+  C--&amp;gt;CC[&amp;quot;Cleaner Con&amp;quot;];
+  C--&amp;gt;CT[&amp;quot;Cleaner Tails&amp;quot;];
+&lt;/code&gt;&lt;/pre&gt;
 &lt;ul&gt;
 &lt;li&gt;Frother U was tested at a dosage of 1, 2, and 3 drops.  Frother X was tested at a dosage of 1, 2, and 3 drops.  No repeat tests were conducted.&lt;/li&gt;
 &lt;li&gt;A mass balance is not required for the data analysis.  Do not use the given feed grade for any performance calculations.  Back calculate feed masses.&lt;/li&gt;
