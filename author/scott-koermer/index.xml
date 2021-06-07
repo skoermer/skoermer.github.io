@@ -18,6 +18,7 @@
       <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
       <guid>/publication/software/introducing-the-bayesmassbal-package-for-r/</guid>
       <description>
+&lt;script src=&#34;/publication/software/introducing-the-bayesmassbal-package-for-r/index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;p&gt;The &lt;code&gt;BayesMassBal&lt;/code&gt; (V. 0.2.0) package, used for Bayesian data reconciliation of a chemical or particulate process, is &lt;a href=&#34;https://CRAN.R-project.org/package=BayesMassBal&#34;&gt;now available from CRAN&lt;/a&gt;.&lt;/p&gt;
