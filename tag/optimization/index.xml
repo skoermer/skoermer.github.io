@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>SME | Scott Koermer</title>
-    <link>/category/sme/</link>
-      <atom:link href="/category/sme/index.xml" rel="self" type="application/rss+xml" />
-    <description>SME</description>
+    <title>Optimization | Scott Koermer</title>
+    <link>/tag/optimization/</link>
+      <atom:link href="/tag/optimization/index.xml" rel="self" type="application/rss+xml" />
+    <description>Optimization</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 09 Oct 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
-      <title>SME</title>
-      <link>/category/sme/</link>
+      <title>Optimization</title>
+      <link>/tag/optimization/</link>
     </image>
     
     <item>
@@ -22,21 +22,6 @@
 &lt;p&gt;This application of probabilistic optimization won first place price in the contest based on both the content of the abstract and video submissions.  Instead of going into more details here, the &lt;a href=&#34;https://www.youtube.com/watch?v=GqOS38qfrrc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;/a&gt; and abstract probably do a better job.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;/media/Koermer%20Scott%20MPD%20contest%202021.pdf&#34; target=&#34;_blank&#34;&gt;Abstract Here&lt;/a&gt;&lt;/p&gt;
 &lt;iframe width=&#34;704&#34; height=&#34;396&#34; src=&#34;https://www.youtube.com/embed/GqOS38qfrrc&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
-    </item>
-    
-    <item>
-      <title>Rare Earth Element SX Systems: “Are we at steady state yet?”</title>
-      <link>/publication/rare-earth-element-sx-systems-are-we-at-steady-state-yet/</link>
-      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/rare-earth-element-sx-systems-are-we-at-steady-state-yet/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Poster&lt;/em&gt; button above to view a PDF file of the poster.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;This poster was entered in the Mineral Processing Division Poster Contest at the SME annual meeting in Phoenix, AZ, February 26, 2020 and won the $3^{\mathrm{rd}}$ place award.&lt;/p&gt;
-&lt;p&gt;This last minute idea worked out quite well.  Be on the lookout for a full publication on this topic in the future.&lt;/p&gt;
-</description>
     </item>
     
   </channel>

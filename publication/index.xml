@@ -5,12 +5,24 @@
     <link>/publication/</link>
       <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 07 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 09 Oct 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
       <link>/publication/</link>
     </image>
+    
+    <item>
+      <title>Short Video Contest Winner: Optimization of a Metallurgical Process with Uncertain Dynamics</title>
+      <link>/publication/2021-sme-mpd-short-video-contest-winner/</link>
+      <pubDate>Sat, 09 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/2021-sme-mpd-short-video-contest-winner/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s been a busy summer and early fall.  Earlier in the year I submitted an entry to the Society of Mining, Metallurgy &amp;amp; Exploration Mineral Processing Division &lt;a href=&#34;https://www.smenet.org/Professional-Development/Awards-Competitions/MPD-Division-Student-Poster-Contest&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Short Video Contest&lt;/a&gt; titled &lt;em&gt;Optimization of a Metallurgical Process with Uncertain Dynamics&lt;/em&gt;.  Entries consisted of a one page abstract and a less than three minute video presenting the work.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Optimization of a Metallurgical Process with Uncertain Dynamics&lt;/em&gt; provided an example of how &lt;a href=&#34;https://en.wikipedia.org/wiki/Gaussian_process&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gaussian process&lt;/a&gt; regression can be used with &lt;a href=&#34;https://en.wikipedia.org/wiki/Bayesian_optimization&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bayesian optimization&lt;/a&gt; to find the optimum of a chemical process for rare earth element extraction in few experiments.&lt;/p&gt;
+&lt;p&gt;This application of probabilistic optimization won first place price in the contest based on both the content of the abstract and video submissions.  Instead of going into more details here, the &lt;a href=&#34;https://www.youtube.com/watch?v=GqOS38qfrrc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;/a&gt; and abstract probably do a better job.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;/media/Koermer%20Scott%20MPD%20contest%202021.pdf&#34; target=&#34;_blank&#34;&gt;Abstract Here&lt;/a&gt;&lt;/p&gt;
+&lt;iframe width=&#34;704&#34; height=&#34;396&#34; src=&#34;https://www.youtube.com/embed/GqOS38qfrrc&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
     
     <item>
       <title>The utility of Bayesian data reconciliation for separations</title>
