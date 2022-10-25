@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Simulator Calibration | Scott Koermer</title>
+    <link>/tag/simulator-calibration/</link>
+      <atom:link href="/tag/simulator-calibration/index.xml" rel="self" type="application/rss+xml" />
+    <description>Simulator Calibration</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>Simulator Calibration</title>
+      <link>/tag/simulator-calibration/</link>
+    </image>
+    
+    <item>
+      <title>PhD Dissertation:  Bayesian Methods for Mineral Processing Operations</title>
+      <link>/publication/phd-dissertation/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/phd-dissertation/</guid>
+      <description>&lt;p&gt;I have finally gotten around to uploading my dissertation for my PhD in Mining Engineering, after submitting the final copy to Virginia Tech in May 2022.  After a brief literature review, the dissertation overviews four applications of Bayesian statistical inference to general mineral processing problems.  The topics can be broken up as such:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Linear Regression&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;Ch 3&lt;/strong&gt;&lt;/em&gt;:  Bayesian data reconciliation of a process, which allows for uncertainty quantification of estimates and model selection.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;Ch 4:&lt;/strong&gt;&lt;/em&gt;  Use of Bayesian inference with an autoregressive model to methodically estimate steady state concentrations.&lt;br&gt;
+&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Gaussian Process Regression&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;Ch 5:&lt;/strong&gt;&lt;/em&gt;  Bayesian optimization of a process simulation with unknown dynamics.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;Ch 6:&lt;/strong&gt;&lt;/em&gt;  Active learning acquisition of computer simulator data, for the purposes of improved prediction using the &lt;a href=&#34;https://doi.org/10.1111/1467-9868.00294&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kennedy and O&amp;rsquo;Hagan calibration framework&lt;/a&gt;.  This novel statistical method has been coined KOH-IMSPE.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Chapter 3 was published as &lt;a href=&#34;https://doi.org/10.1016/j.mineng.2021.106837&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The utility of Bayesian data reconciliation for separations&lt;/a&gt; in 2021.&lt;/p&gt;
+&lt;p&gt;Chapter 4 has been resubmitted for publication after some minor edits and is hopefully forthcoming.&lt;/p&gt;
+&lt;p&gt;Chapter 5 requires some more data to be collected and revision before submission.  We hope to add a real data example to the simulator example found within the dissertation text.&lt;/p&gt;
+&lt;p&gt;I am the most excited about publishing Chapter 6.  The novel statistical method developed in this chapter has applications outside of mineral processing.  After collection of both real data and data from a simulator, one would want to use the real data to calibrate the simulator (also known as inverse modeling or adjusting tuning parameters).  For an expensive to evaluate simulator it would be smart to collect simulation runs near the best estimate of a tuning parameter, in order to reduce simulator computation time.&lt;/p&gt;
+&lt;p&gt;In the below figure we see KOH-IMSPE doing just that.  Let the $u$ axis be entertained values for a simulator tuning parameter, and the $X$ axis be independent variables we can change or observe when collecting real world data (we can&amp;rsquo;t observe tuning parameters, such the acceleration due to gravity, but we can measure some independent variables, such as an object&amp;rsquo;s height before falling to the ground). Furthermore, let $u^\star$ be the true value of a tuning parameter and $\hat{u}$ be the best estimate of $u^\star$ given the observed data.  It can be seen below that KOH-IMSPE sequentially gathers simulator data near $\hat{u}$, while allowing for some exploration.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;images/koh-imspe-2d.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Evidence that this acquisition criteria requires less simulator data for the same level of predictive accuracy of other methods is provided in the dissertation &lt;a href=&#34;/media/Koermer_SC_D_2022.pdf&#34; target=&#34;_blank&#34;&gt;dissertation&lt;/a&gt;.  The details of an application on a real data set are being worked out as an included section before submission.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
