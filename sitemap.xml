@@ -63,8 +63,63 @@
   </url>
   
   <url>
+    <loc>/publication-type/0/</loc>
+    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tag/bayesian-inference/</loc>
-    <lastmod>2022-03-03T14:58:17-05:00</lastmod>
+    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/gaussian-process/</loc>
+    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/kennedy-and-ohagan-imspe/</loc>
+    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/machine-learning/</loc>
+    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/optimization/</loc>
+    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/phd-dissertation/</loc>
+    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/simulator-calibration/</loc>
+    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -74,16 +129,6 @@
   
   <url>
     <loc>/tag/economic-modeling/</loc>
-    <lastmod>2022-03-03T14:58:17-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/gaussian-process/</loc>
-    <lastmod>2022-03-03T14:58:17-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/machine-learning/</loc>
     <lastmod>2022-03-03T14:58:17-05:00</lastmod>
   </url>
   
@@ -98,27 +143,12 @@
   </url>
   
   <url>
-    <loc>/tag/optimization/</loc>
-    <lastmod>2022-03-03T14:58:17-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-    <lastmod>2022-03-03T14:58:17-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tag/r/</loc>
     <lastmod>2022-03-03T14:58:17-05:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/rees/</loc>
-    <lastmod>2022-03-03T14:58:17-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2022-03-03T14:58:17-05:00</lastmod>
   </url>
   
@@ -134,11 +164,6 @@
   
   <url>
     <loc>/tag/software/</loc>
-    <lastmod>2022-03-03T14:58:17-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2022-03-03T14:58:17-05:00</lastmod>
   </url>
   
@@ -220,10 +245,6 @@
   <url>
     <loc>/tag/recycling/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
   </url>
   
   <url>
